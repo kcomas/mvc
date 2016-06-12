@@ -188,6 +188,15 @@ class MVCElement {
 
     }
 
+    /**
+     * Find another element by stamp name
+     * @param {string} stamp - the stamp name
+     * @return {MVCElement|array<MVCElement} an element that matchers or an array of similar elements
+     */
+    find(stamp){
+        return this._controller.find(stamp);
+    }
+
 
 }
 

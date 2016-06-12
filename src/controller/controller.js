@@ -29,7 +29,7 @@ class Controller {
     /**
      * Find an element in the flat dom
      * @param {string} stamp - the stamp name of the value
-     * @return {MVCElelemt|array<MVCElement} the found element or an array of similar elements
+     * @return {MVCElement|array<MVCElement>} the found element or an array of similar elements
      */
     find(stamp){
         if(this._flatDom[stamp]){
