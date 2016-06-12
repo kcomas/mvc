@@ -17,6 +17,13 @@ class Controller {
          */
         this._base = document.querySelector(selector);
 
+        /**
+         * The dom elements stored in a flat layout
+         * @type {Object}
+         * @private
+         */
+        this._flatDom = {};
+
     }
 
 }
